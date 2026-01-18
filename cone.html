@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cone for Cone · Wingdang Coast Trip</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sea-wash" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark">🏖️</span>
+        <div>
+          <p class="brand-title">Wingdang Trip</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Itinerary</a>
+        <a href="raymond.html">Raymond</a>
+        <a class="active" href="cone.html">🍦</a>
+        <a href="https://beerspong.github.io" target="_blank" rel="noopener">Beer Pong</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="cone">
+        <div class="section-title">
+          <h2>Cone for Cone</h2>
+        </div>
+
+        <div class="cone-grid" id="cone-grid">
+          <article class="cone-card" data-person="jacob">
+            <h3>Jacob</h3>
+            <div class="cone-controls">
+              <button type="button" data-action="decrement">-</button>
+              <span class="cone-count" id="count-jacob">0</span>
+              <button type="button" data-action="increment">+</button>
+            </div>
+          </article>
+          <article class="cone-card" data-person="harc">
+            <h3>Harc</h3>
+            <div class="cone-controls">
+              <button type="button" data-action="decrement">-</button>
+              <span class="cone-count" id="count-harc">0</span>
+              <button type="button" data-action="increment">+</button>
+            </div>
+          </article>
+          <article class="cone-card" data-person="liamP">
+            <h3>Liam P</h3>
+            <div class="cone-controls">
+              <button type="button" data-action="decrement">-</button>
+              <span class="cone-count" id="count-liamP">0</span>
+              <button type="button" data-action="increment">+</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Wingdang Coast Trip</p>
+    </footer>
+
+    <script type="module" src="cone.js"></script>
+  </body>
+</html>

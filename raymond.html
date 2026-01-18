@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Raymond · Wingdang Coast Trip</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sea-wash" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark">🏖️</span>
+        <div>
+          <p class="brand-title">Wingdang Coast Trip</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Itinerary</a>
+        <a class="active" href="raymond.html">Raymond</a>
+        <a href="cone.html">🍦</a>
+        <a href="https://beerspong.github.io" target="_blank" rel="noopener">Beer Pong</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="raymond">
+        <div class="section-title">
+          <h2>Raymond</h2>
+        </div>
+        <div class="raymond-controls">
+          <label for="raymond-count">
+            Raymonds
+            <input id="raymond-count" type="range" min="6" max="40" value="18" />
+          </label>
+          <label for="raymond-speed">
+            Speed
+            <input id="raymond-speed" type="range" min="5" max="20" value="1.4" step="0.1" />
+          </label>
+        </div>
+        <div class="raymond-field" id="raymond-field">
+          <div class="raymond-overlay" id="raymond-overlay" hidden>
+            <p>The Raymonds are no more.</p>
+            <button type="button" id="raymond-reset">Reset</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Wingdang Coast Trip</p>
+    </footer>
+
+    <script src="raymond.js"></script>
+  </body>
+</html>
